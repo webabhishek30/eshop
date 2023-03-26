@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*  */
+.d-flex{
+  display: flex;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.align-items-center{
+  align-items: center;
+}
+.link{
+  color: inherit;
+  text-decoration: none;
+}
+.link:hover{
+  color: inherit;
+  text-decoration: underline;
+}
+.logo{
+  width: 200px;
+  display: flex;
+}
+.success .MuiFormLabel-root{
+  color: #1d9501;
+}
+.error .MuiFormLabel-root{
+  color: #ff6d6d;
+}
+.error .MuiOutlinedInput-notchedOutline{
+  border-color: #ff6d6d;
+}
